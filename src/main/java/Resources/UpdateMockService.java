@@ -13,10 +13,21 @@ import org.springframework.web.bind.annotation.RequestMethod;
  *
  */
 public class UpdateMockService {
-
 	
 	@RequestMapping(value="mock/{uuid}/update", method=RequestMethod.PUT)
 	public void getMockResponse(@PathVariable("uuid") String uuid, @PathVariable("path") String path, @RequestBody org.json.JSONObject payload){
+
+		
+		if(uuid!=null){
+			// Retrieve the Mock Service with UUID 
+			
+			
+			
+			// Update the 
+		}else{
+			// Throw Error
+		}
+		
 		
 	}
 	

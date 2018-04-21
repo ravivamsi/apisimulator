@@ -55,7 +55,7 @@ public class ConsumeMockService {
 	
 	
 	
-	// Yet to Implement
+	// Yet to Implement 
 	@RequestMapping(value="mock/{uuid}/consume/{path}", method=RequestMethod.DELETE)
 	public void copyMockResponse(@PathVariable("uuid") String uuid, @PathVariable("path") String path){
 		

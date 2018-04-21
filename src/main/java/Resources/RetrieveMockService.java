@@ -17,9 +17,6 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class RetrieveMockService {
 
-	
-	
-	
 	@RequestMapping(value="mock/{uuid}/details", method=RequestMethod.GET)
 	public void retrieveMockServiceById(@PathVariable("uuid") UUID uuid){
 		if(uuid!=null){
