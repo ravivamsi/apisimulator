@@ -1,7 +1,7 @@
 /**
  * 
  */
-package ResponseModels;
+package com.api.mock.simulator.responseModels;
 
 /**
  * @author vamsiravi

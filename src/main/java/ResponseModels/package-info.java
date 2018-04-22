@@ -1,8 +1,0 @@
-/**
- * 
- */
-/**
- * @author vamsiravi
- *
- */
-package ResponseModels;

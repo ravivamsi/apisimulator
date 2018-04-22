@@ -1,7 +1,7 @@
 /**
  * 
  */
-package Converters;
+package com.api.mock.simulator.converters;
 
 import org.json.JSONException;
 import org.json.JSONObject;

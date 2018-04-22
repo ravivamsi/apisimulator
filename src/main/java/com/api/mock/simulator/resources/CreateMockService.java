@@ -1,7 +1,7 @@
 /**
  * 
  */
-package Resources;
+package com.api.mock.simulator.resources;
 
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;

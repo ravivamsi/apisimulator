@@ -5,4 +5,4 @@
  * @author vamsiravi
  *
  */
-package Resources;
+package com.api.mock.simulator.resources;

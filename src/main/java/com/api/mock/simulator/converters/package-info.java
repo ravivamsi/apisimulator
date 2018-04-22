@@ -5,4 +5,4 @@
  * @author vamsiravi
  *
  */
-package DatabaseModel;
+package com.api.mock.simulator.converters;
