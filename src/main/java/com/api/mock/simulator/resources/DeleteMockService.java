@@ -8,11 +8,13 @@ import java.util.UUID;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.bind.annotation.RestController;
 
 /**
  * @author vamsiravi
  *
  */
+@RestController
 public class DeleteMockService {
 	
 	@RequestMapping(value="mock/{uuid}/delete", method=RequestMethod.GET)
