@@ -58,7 +58,7 @@ public class ConsumeMockService {
 	
 	
 	// Yet to Implement 
-	@RequestMapping(value="mock/{uuid}/consume/{path}", method=RequestMethod.DELETE)
+	/*@RequestMapping(value="mock/{uuid}/consume/{path}", method=RequestMethod.DELETE)
 	public void copyMockResponse(@PathVariable("uuid") String uuid, @PathVariable("path") String path){
 		
 	}
@@ -96,5 +96,5 @@ public class ConsumeMockService {
 	@RequestMapping(value="mock/{uuid}/consume/{path}", method=RequestMethod.DELETE)
 	public void propFindMockResponse(@PathVariable("uuid") String uuid, @PathVariable("path") String path){
 		
-	}
+	}*/
 }
