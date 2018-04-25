@@ -7,12 +7,14 @@ import java.util.List;
 import java.util.UUID;
 
 import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.stereotype.Repository;
 
 /**
  * @author vamsiravi
  *
  */
-public interface MockMasterRepository extends JpaRepository<MockMaster, Long>{
+@Repository
+public interface MockMasterRepository extends JpaRepository<MockMaster, UUID>{
 
 	List<MockMaster> findByPath(String path);
 	
